@@ -1,0 +1,100 @@
+h1{	
+	text-align:center;
+	font-size:45px;
+}
+h2{	
+	font-size:35px;
+}
+p {
+	font-family: verdana;
+	font-size: 25px;
+}
+footer{
+	position: fixed;
+	bottom: 0;
+	left:0;
+	text-align:center;
+}
+a{
+	color:#264653;
+}
+#logo{
+	height:40px;
+}
+.bottom{	
+	width: 100%;	
+    background-color: #2a9d8f;
+    padding: 15px;
+}
+.top {
+    background-color: #2a9d8f;
+    color: #e9c46a;
+	position: fixed;
+	width:100%;
+	top:0;
+	left:0;
+}
+.sidebar, .sidebarLink{
+	display: block;
+	background-color:#264653;
+	font-size: 20px;
+	color:#FFFFFF;
+	top:110;
+	left:0;
+}
+.sidebar{
+	width: 140px;
+	position: fixed;
+	height: 100%;
+}
+.sidebarLink:hover{
+	color:#e9c46a;
+}
+.main {
+	margin-left: 140px;
+	font-size: 28px; 
+	padding: 0px 10px;
+	margin-top:120;
+	margin-bottom:80;
+}
+
+.facultyContent {
+	padding: 0 18px;
+	display: none;
+	overflow: hidden;
+	background-color: #e1e1e1;
+}
+.facultyInfoTable{
+	font-size:15px;
+}
+.facultyImage{
+	padding: 15px;
+	width:480px;
+}
+
+/*Style pulled from w3 schools
+link: https://www.w3schools.com/howto/howto_js_collapsible.asp
+while we were told not to pull code from the internet, I felt this
+was acceptable since it's not actually part of the requirements*/
+.collapsible {
+	background-color: #264653;
+	color: white;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+}
+.eventTitle{
+	font-size:35px;
+	text-align:center;
+	margin-top:25px;
+}
+.eventImage{
+	width:480px;
+}
+.eventInfoTable{
+	font-size:20px;
+}
